@@ -1,5 +1,5 @@
 
-var swiper = new Swiper('.swiper-container', {
+let swiper = new Swiper('.swiper-container', {
   cssMode: true,
   navigation: {
     nextEl: '.swiper-button-next',
