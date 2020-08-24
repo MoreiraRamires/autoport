@@ -216,25 +216,7 @@
   height: auto;
 }
 
-/* services */
-.services{
-  background-color:var(--unnamed-color-f1f1f1);
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
 
-.services h1{
-  
-
-text-align: center;
-font:  bold 75px;
-letter-spacing: -0.55px;
-color: #A8A8A8;
-
-margin-top: 157px;
-margin-bottom: 125px;
-}
 
 /* itens */
 
@@ -273,6 +255,7 @@ margin-bottom: 125px;
 
 
 .items-grid li:hover{
+
   background-color:var(--unnamed-color-c81529);
   
   border-radius: 30px;
@@ -283,6 +266,10 @@ margin-bottom: 125px;
   
   color:white;
 
+}
+
+.items-grid li:hover button{
+  display:block;
 }
 
 .items-grid li span {
@@ -309,7 +296,25 @@ margin-bottom: 125px;
 }
 
 
+/* services */
+.services{
+  background-color:var(--unnamed-color-f1f1f1);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 
+.services h1{
+  
+
+text-align: center;
+font:  bold 75px;
+letter-spacing: -0.55px;
+color: #A8A8A8;
+
+margin-top: 157px;
+margin-bottom: 125px;
+}
 
 .services h1 {
   text-align: center;
@@ -343,11 +348,7 @@ margin-bottom: 125px;
   transition:0.4s;
 }
 
-.services button:hover {
-  display:block;
 
-  
-}
 
 .services .bottom-button{
   width: 252px;
@@ -416,6 +417,18 @@ position: absolute;
   margin-top:25px;
 }
 
+.truck .truck-top img{
+  
+  margin-left:700px;
+  margin-top: 20px;
+  width: 80px;
+  height: unset;
+  
+  position: relative;
+  
+  }
+
+
 .truck-bottom h1{
   color:#201E1E;
   margin-left:700px;
@@ -426,7 +439,7 @@ position: absolute;
 .truck-bottom p {
   color:#131315;
   margin-left:700px;
-  margin-top: 80px;
+  margin-top: 50px;
 }
 
 .truck-bottom button{
@@ -450,6 +463,18 @@ position: absolute;
   opacity:0.5;
 }
 
+.truck .truck-bottom img{
+  
+  margin-left:700px;
+  margin-top: 20px;
+  width: 80px;
+  height: unset;
+  
+  position: relative;
+  
+  }
+
+
  /* Part 4 */
 
  .box-form{
@@ -458,6 +483,10 @@ position: absolute;
   align-items: center;
   margin-top: 5%;
   margin-left: 15%;
+ }
+
+ .box-form form select {
+  color: var(--unnamed-color-5b6361);
  }
 
  .box-form h1 {
